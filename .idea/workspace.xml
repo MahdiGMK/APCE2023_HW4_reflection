@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aea8c5ed-771e-457a-8786-d606336ac242" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YourConvertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YourConvertor.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SerializeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/EncryptedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Gun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/John.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/JohnWick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/JohnWickChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tst.java" afterDir="false" />
+    <list default="true" id="aea8c5ed-771e-457a-8786-d606336ac242" name="Changes" comment="shit json">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Rename.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +59,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.445977&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SerializeTest">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SerializerTest">
     <configuration name="DeserializeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,6 +200,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializerTest" type="JUnit" factoryName="JUnit">
+      <module name="reflection.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SerializerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.DeserializeTest.deserializeWithPrimitives" />
       <item itemvalue="Gradle.tst.strTest" />
@@ -224,13 +220,14 @@
       <item itemvalue="Gradle.DeserializeTest" />
       <item itemvalue="JUnit.DeserializeTest" />
       <item itemvalue="JUnit.SerializeTest" />
+      <item itemvalue="JUnit.SerializerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'reflection.test'" />
         <item itemvalue="Gradle.DeserializeTest" />
         <item itemvalue="Gradle.DeserializeTest.deserializeWithPrimitives" />
         <item itemvalue="Gradle.tst.strTest" />
-        <item itemvalue="Gradle.Tests in 'reflection.test'" />
         <item itemvalue="Gradle.DeserializeTest.deserializeWithObject" />
       </list>
     </recent_temporary>
@@ -251,8 +248,16 @@
       <workItem from="1688457766567" duration="41000" />
       <workItem from="1688474830162" duration="85000" />
       <workItem from="1688570381123" duration="5629000" />
-      <workItem from="1688593951706" duration="5611000" />
+      <workItem from="1688593951706" duration="7855000" />
     </task>
+    <task id="LOCAL-00001" summary="shit json">
+      <created>1688599827487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688599827487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="shit json" />
+    <option name="LAST_COMMIT_MESSAGE" value="shit json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
